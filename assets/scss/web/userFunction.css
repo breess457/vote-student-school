@@ -1,0 +1,298 @@
+body{
+  
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+}
+.logo{
+  font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+  width: 100%;
+}
+.custom-navbar {
+  box-shadow: 10px 10px 10px #eee;
+  background-color: rgb(255, 255, 255);
+}
+.nav-link {
+  color: #20f7ec !important;
+}
+.nav-links {
+  color: #f720af !important;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.font-thi{
+    font-family: 'Itim', cursive;
+}
+
+
+.navbar-toggler:hover{
+  border:  2px solid springgreen;
+}
+.collapse .navbar-nav .x-22{
+  position: static;
+}
+.collapse .navbar-nav .x-22 .dropdown-menu.mega-menu{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    min-width: auto;
+    width: 40%;
+    padding: 0;
+    border-color: #ccc;
+    margin-left: 42%;
+    top: 70px;
+	  background-color: white;
+	  border-radius: 3px;
+	  box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+    height: 400px;
+    overflow: auto;
+}
+
+.collapse .navbar-nav .x-22 .mega-menu::before{
+	position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  right: 35px;
+  top: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+
+}
+
+.collapse .navbar-nav .dropdown .d-flex .avatar-image-student{
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
+  border-radius: 50%;
+  margin-top: 0;
+}
+.collapse .navbar-nav .dropdown{
+  position: static;
+  display: block;
+}
+/* .collapse .navbar-nav .dropdown .d-flex .dropdown .nav-links{
+  width: 50%;
+  overflow: auto;
+  position: sticky;
+  padding: 0;
+  
+} */
+/* .collapse .navbar-nav .dropdown .d-flex .dropdown .dropdown-toggle .fulltext{
+  white-space: nowrap;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+} */
+.collapse .navbar-nav .dropdown .d-flex .dropdown-menu{
+    margin-left: 77%;
+    top: 60px;
+    border-radius: 5px 0px 5px 5px;
+    width: 250px;
+    
+}
+.collapse .navbar-nav .dropdown .d-flex .dropdown-menu a:hover{
+  background-color: #20f7ec;
+  font-size: 18px;
+  font-weight: bold;
+  color: #eee;
+}
+.d-alert{
+  margin-top: 20px;
+}
+.dis-date{
+  display: flex;
+}
+
+.avatar-image-teacher{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+  border-radius: 50%;
+  margin-top: 0;
+  
+}
+.card-img-right{
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 250px;
+}
+.p-status{
+  margin-left:0 auto;
+}
+.logo_custom {
+  margin-top: -6px;
+}
+
+@media only screen and (max-width: 460px){
+  body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .d-alert{
+    margin-top: 60px;
+    width: 80%;
+  }
+  .d-row{
+    justify-content: center;
+  }
+  .col-md-6 .card .card-img-right{
+    width: 100%;
+    height: 230px;
+  }
+  .col-md-6 .card .card-body .dis-date{
+    display: block;
+  }
+  .col-md-6 .card .card-body .dis-date small{
+    display: block;
+  }
+}
+/* Style tab ribbon */
+.ribbon {
+    position: absolute;
+    right: 15px;
+    top: -1px;
+    z-index: 2;
+    overflow: hidden;
+    width: 100px;
+    height: 85px;
+    text-align: center;
+}
+
+    .ribbon .on-span {
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        line-height: 25px;
+        transform: rotate(45deg);
+        width: 120px;
+        display: block;
+        background: #f6e824;
+        background: linear-gradient(#e6f704 0%, #48ff00 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 22px;
+        right: -25px;
+
+    }
+    .ribbon .off-span {
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        line-height: 25px;
+        transform: rotate(45deg);
+        width: 120px;
+        display: block;
+        background: #f65524;
+        background: linear-gradient(#f7b604 0%, #ff0000 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 22px;
+        right: -25px;
+
+    }
+
+
+/* End ribbon */
+
+/* Table Filter */
+.table-filter {
+	background-color: #fff;
+}
+.table-filter tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-bottom: 1px solid #eee;
+}
+.table-filter tbody tr:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.table-filter tbody tr td {
+	padding: 10px;
+	vertical-align: middle;
+	border-top-color: rgb(168, 166, 166);
+}
+.table-filter tbody tr.selected td {
+	background-color: #eee;
+  width: 100%;
+}
+.table-filter tr td:first-child {
+	width: 100%;
+}
+.table-filter tr td:nth-child(2) {
+	width: 100%;
+}
+
+.table-filter .media-photo {
+	width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+}
+.table-filter .media-body {
+    display: block;
+    margin-left: 2%;
+    width: 100%;
+    /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
+}
+.table-filter .media-meta {
+	font-size: 11px;
+	color: #999;
+}
+.table-filter .xx2 {
+	font-size: 11px;
+	color: rgb(4, 238, 82);
+  margin-left: 60px;
+}
+.table-filter .xx1 {
+	font-size: 11px;
+	color: rgb(245, 32, 24);
+  margin-left: 60px;
+}
+.table-filter .media .title {
+	color: #2BBCDE;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+.table-filter .media .title span {
+	font-size: .8em;
+	margin-right: 20px;
+}
+.table-filter .media .title span.pagado {
+	color: #5cb85c;
+}
+.table-filter .media .title span.pendiente {
+	color: #f0ad4e;
+}
+.table-filter .media .title span.cancelado {
+	color: #d9534f;
+}
+.table-filter .media .summary {
+	font-size: 14px;
+}

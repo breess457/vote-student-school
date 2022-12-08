@@ -1,0 +1,26 @@
+.btnLimit{
+    width: 80%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#f3d007 0%,#c4f807 100%);
+}
+.image-alert{
+    width: 300px;
+    height: 200px;
+    object-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}

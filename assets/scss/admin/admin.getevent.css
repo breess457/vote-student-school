@@ -1,0 +1,341 @@
+.modal-login .form-group {
+  position: relative;
+}
+.modal-login .m-fa-award {
+  position: absolute;
+  left: 13px;
+  top: 11px;
+  font-size: 23px;
+}
+.modal-login .form-control {
+  padding-left: 40px;
+}
+.modal-login .form-control:focus {
+  border-color: #00ce81;
+}
+.modal-login textarea {
+  height: 100px;
+}
+#date,
+#time {
+  padding-top: 5px;
+}
+.my-btn {
+  font-weight: bold; 
+  text-align: center;
+  background: #ff9900 none repeat scroll 0 0;
+  font-family: "Courier New", Courier, monospace;
+  width: 50%;
+}
+
+/* Image Upload */
+
+.button_outer {
+	display: inline-block;
+	transition: .2s;
+	position: relative;
+	overflow: hidden
+}
+.button-3d {
+	background-color: rgba(155, 89, 182, 1);
+	border: 2px solid rgba(142, 68, 173, 1);
+	border-radius: 8px;
+	box-shadow: 0 6px rgba(155, 89, 182, 1), 
+	0 8px rgba(142, 68, 173, 1); 
+	color: #fff;
+	width: 30%;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 15px 30px;
+	position: relative;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 0.2s linear, box-shadow 0.2s linear;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.button-3d:active {
+	transform: translateY(8px);
+	box-shadow: 0 0 rgba(155, 89, 182, 1), 
+	0 0 rgba(142, 68, 173, 1);
+}
+
+.button-3d:focus {
+	outline: none;
+}
+.btn_upload {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 3;
+  white-space: nowrap;
+}
+.btn_upload .getfile {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 105%;
+  cursor: pointer;
+  opacity: 0;
+}
+.file_uploading {
+  width: 100%;
+  height: 10px;
+  margin-top: 20px;
+  background: #ccc;
+}
+.file_uploading .btn_upload {
+  display: none;
+}
+.processing_bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 30px;
+  background: #83ccd3;
+  transition: 3s;
+}
+.file_uploading .processing_bar {
+  width: 100%;
+}
+
+.success_box {
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+ .success_box:before {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 18px;
+  border-bottom: 6px solid #fff;
+  border-right: 6px solid #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 17px;
+  top: 10px;
+}
+.file_uploaded .success_box {
+  display: none;
+}
+.file_uploaded {
+  margin-top: 0;
+  width: 60px;
+  background: #83ccd3;
+  height: 50px;
+}
+.uploaded_file_view {
+  margin-top: 0;
+  max-width: 250px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  transition: 0.2s;
+  opacity: 0;
+  border: none;
+  padding: 0;
+}
+.uploaded_file_view .upload-app{
+	height: 150px;
+	border: #00ce81 1px solid;
+}
+.file_remove {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  background: #aaa;
+  line-height: 30px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  right: -15px;
+  top: -15px;
+}
+.file_remove:hover {
+  background: #222;
+  transition: 0.2s;
+}
+.uploaded_file_view img {
+  max-width: 100%;
+}
+.uploaded_file_view.show {
+  opacity: 1;
+}
+.error_msg {
+  text-align: center;
+  color: #f00;
+}
+/* End style Image */
+
+/* Create Card Event Vote */
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.col-item .price .x-forex p,small
+{
+  font-family: "Courier New", Courier, monospace;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator{
+  border-top: 1px solid #8f0adb;
+  width: 100%;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 100%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+/* End Style Card Event */
+/* Create ribbon */
+.product-grid6,.product-grid6 .product-image6{overflow:hidden}
+.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s}
+.product-grid6:hover{box-shadow:0 0 10px rgba(0,0,0,.3)}
+.product-grid6 .product-image6 a{display:block}
+.product-grid6 .product-image6 img{transition:all .5s ease 0s}
+.product-grid6:hover .product-image6 img{transform:scale(1.1)}
+
+@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
+}
+
+.ribbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+    .ribbon .on-span {
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: #f6e824;
+        background: linear-gradient(#e6f704 0%, #48ff00 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px;
+        right: -21px;
+
+    }
+    .ribbon .off-span {
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: #f65524;
+        background: linear-gradient(#f7b604 0%, #ff0000 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px;
+        right: -21px;
+
+    }
+
+
+/* End ribbon */

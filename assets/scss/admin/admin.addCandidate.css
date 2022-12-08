@@ -1,0 +1,474 @@
+ /* Title Vote */
+.wizard-container{
+   z-index: 3;
+}
+.Xcard  {
+  background-color: #FFFFFF;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 6px;
+  color: rgba(0,0,0, 0.87);
+  background: #fff;
+}
+.wizard-card {
+  min-height: 200px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+} 
+
+.avartarx{
+    text-align: left;
+    margin-left: 3%;
+}
+.avartarx>img{
+    border-radius: 10%;
+    width: 170px;
+    height: 170px;
+    border:5px solid rgb(10, 191, 236);
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.t-txt{
+   color:#1affa3;
+   font-weight: bold;
+}
+
+.wizard-container textarea{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.d-flex .d-flex .b-font {
+    font-family: 'Courier New', Courier, monospace;
+}/* End */
+
+.cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #b14040;
+   margin: 0 0 28px;
+}
+.cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+ .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+
+/* Style UPload image */
+.container .wrapperC{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-bottom: 0;
+}
+.wrapperC .active{
+    border: none;
+}
+.wrapperC:hover{
+    border: 2px dashed #f50808;
+}
+.wrapperC .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperC .image img{
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.wrapperC .icon{
+    font-size: 70px;
+    color: #16e5ec;
+	text-align: center;
+}
+.wrapperC .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+	font-family: 'Charmonman', cursive;
+
+}
+input[type=text],select,select::after,option,label{ 
+	font-family: 'Charmonman', cursive;
+	color: #ef12f7;
+}
+.wrapperC .btnCancleC{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+}
+.wrapperC.active:hover .btnCancleC{
+    display: block;
+}
+.wrapperC.active .btnCancleC:hover{
+    color: #4b06eb;
+}
+.wrapperC .file-nameC{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+	text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+.wrapperC.active:hover .file-nameC{
+    display: block;
+}
+.container #BtnCustomC{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#e116fc 0%,#da70cb 100%);
+}
+/* End */
+
+/* Card Our team Candydate */
+
+.ourteam .candyCard{
+    background-color: #faf4dc;
+    padding-top: 0px;
+    cursor: pointer
+}
+.ourteam .card-name{
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ourteam .card-name:hover {
+    color: #502ab9
+}
+.ourteam div .xnum{
+    font-family: 'Courier New', Courier, monospace;
+    color: #3a464d;
+}
+.ourteam div .text-purple{
+    color: rgb(163, 7, 211);
+}
+.ourteam div .text-chartreuse{
+    color: chartreuse;
+}
+
+/* ++++ End ++++ */
+
+/* ++++ Style Modal Update Event Vote */
+.modal-update .form-group {
+  position: relative;
+}
+.modal-update .m-fa-award {
+  position: absolute;
+  left: 13px;
+  top: 11px;
+  font-size: 23px;
+}
+.modal-update .form-control {
+  padding-left: 40px;
+}
+.modal-update .form-control:focus {
+  border-color: #00ce81;
+}
+.modal-update textarea {
+  height: 100px;
+}
+#date,
+#time {
+  padding-top: 5px;
+}
+.my-btn-update {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  width: 50%;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg,#f3e307 0%,#da70cb 100%);
+}
+
+/* Style Update image */
+.container .wrapperEvent{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-bottom: 0;
+}
+.wrapperEvent .active{
+    border: none;
+}
+.wrapperEvent:hover{
+    border: 2px dashed #f50808;
+}
+.wrapperEvent .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperEvent .image .getpriviewImgEvent{
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.wrapperEvent .icon{
+    font-size: 70px;
+    color: #16e5ec;
+	text-align: center;
+}
+.wrapperEvent .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+	font-family: 'Charmonman', cursive;
+
+}
+input[type=text],select,select::after,option,label{ 
+	font-family: 'Charmonman', cursive;
+	color: #ef12f7;
+}
+.wrapperEvent .btnCancleEvent{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+}
+.wrapperEvent.active:hover .btnCancleEvent{
+    display: block;
+}
+.wrapperEvent.active .btnCancleEvent:hover{
+    color: #4b06eb;
+}
+.wrapperEvent .file-name-vote{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+	text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+.wrapperEvent.active:hover .file-name-vote{
+    display: block;
+}
+.container #BtnCustomVote{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#f7cb0b 0%,#fa0bda 100%);
+}
+/* End */
+
+/* Style Update image Candidate */
+.container .update-wrapper{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-bottom: 0;
+}
+.update-wrapper .active{
+    border: none;
+}
+.update-wrapper:hover{
+    border: 2px dashed #f50808;
+}
+.update-wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update-wrapper .image .update-priviewImg{
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.update-wrapper .icon{
+    font-size: 70px;
+    color: #ecba16;
+	text-align: center;
+}
+.update-wrapper .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+	font-family: 'Charmonman', cursive;
+
+}
+input[type=text],select,select::after,option,label{ 
+	font-family: 'Charmonman', cursive;
+	color: #ef12f7;
+}
+.update-wrapper .update-btnCancle{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+}
+.update-wrapper.active:hover .update-btnCancle{
+    display: block;
+}
+.update-wrapper.active .update-btnCancle:hover{
+    color: #4b06eb;
+}
+.update-wrapper .file-name-update{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+	text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#89ec07 0%,#ab27f7 100%);
+}
+.update-wrapper.active:hover .file-name-update{
+    display: block;
+}
+.container p#updateBtnCustom{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#d7ee06 0%,#07e0c3 100%);
+}
+/* End */
